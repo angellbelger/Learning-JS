@@ -18,14 +18,19 @@
 </head>
 <body>
     <h1>The Document Object Model - DOM</h1>
-    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod ducimus eligendi inventore distinctio. Mollitia libero cupiditate odit consectetur perspiciatis error enim reiciendis voluptas unde totam. Earum non ad magni?</P>
+    <P id="test">Lorem ipsum dolor </P>
     <p>Aprendendo a usar o <strong>DOM</strong> em Javascript</p>
-    <div>Click em mim</div>
+    <div id="msg">Click em mim</div>
     <script>
-
-        var p1 = window.document.getElementsByName('p')[0]
-        window.document.write('just like this' + p1.innerText)
-        p1.style.color = 'blue'
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0]
+        /*
+        d.style.background = 'black'
+        d.style.background = 'green'
+        d.innerText = 'I am waiting'
+        */
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'cyan'
     </script>
 </body>
 </html>
