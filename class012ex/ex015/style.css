@@ -10,6 +10,10 @@ header {
     color: aliceblue;
 }
 
+div#result{
+    line-height: 40px;
+    margin: 5px;
+}
 
 section#log {
     background-color: aliceblue;
