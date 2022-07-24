@@ -16,7 +16,7 @@ function counting(){
         p = Number(txtPass.value)
 
         if (p <= 0){
-            result.innerHTML = 'Invalid pass.'
+            window.alert('Invalid pass');
         }
 
         if (s <= f){
