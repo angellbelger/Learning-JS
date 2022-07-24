@@ -10,27 +10,26 @@ function counting(){
         result.innerHTML = 'Impossible'
 
     } else {
-        result.innerHTML = 'Counting: '
+        result.innerHTML = 'Counting: <br>'
         s = Number(txtStart.value)
         f = Number(txtFinal.value)
         p = Number(txtPass.value)
 
         if (p <= 0){
-            window.alert('Invalid pass');
+            window.alert('Invalid pass! Considering pass = 1');
+            p = 1
         }
 
         if (s <= f){
             for (var c = s; c <= f; c += p){
                 result.innerHTML += `${c} \u{2728}`
             }
-            result.innerHTML += `\u{1F51A}`
 
         } else {
             for (var c = s; c >= f; c -= p){
                 result.innerHTML += `${c} \u{2728}`
             }
-            result.innerHTML += `\u{1F51A}`
-
         }
+        result.innerHTML += `\u{1F51A}`
     }
 }
