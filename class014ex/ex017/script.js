@@ -1,11 +1,22 @@
-var txtNumber = window.document.querySelector('input#txtNumber')
-var result = window.document.querySelector('div#result')
+
 
 function table(){
-    var number = Number(txtNumber.value)
+    var txtNumber = window.document.querySelector('input#txtNumber')
+    var table = window.document.querySelector('select#selTab')
 
-    result.innerHTML = 'Result: <br>'
-    for (var c = 0; c <= 10; c++){
-        result.innerHTML += `<br> ${number} x ${c} = ${number * c}`
+    if (txtNumber.value.length == 0){
+        window.alert('Please, type a value.')
+
+    }else{
+
+        var number = Number(txtNumber.value)
+        
+        result.innerHTML = 'Result: <br>'
+
+        for (var c = 0; c <= 10; c++){
+            var item = document.createElement('option')
+            item.txt = `${number} x ${c} = ${number * c}`
+            table.appendChild(item)
+        }
     }
 }
