@@ -10,12 +10,12 @@ function table(){
     }else{
 
         var number = Number(txtNumber.value)
-        
-        result.innerHTML = 'Result: <br>'
 
+        table.innerHTML = ''
         for (var c = 0; c <= 10; c++){
             var item = document.createElement('option')
-            item.txt = `${number} x ${c} = ${number * c}`
+            item.text = `${number} x ${c} = ${number * c}`
+            item.value = `tab${c}`
             table.appendChild(item)
         }
     }
