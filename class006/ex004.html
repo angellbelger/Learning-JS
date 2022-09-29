@@ -13,10 +13,11 @@
         }
         section.js {
             background-color: #00ffff;
-            height: 500px;
-            width: 500px;
+            height: 250px;
+            width: 250px;
             margin: auto;
-            padding: 40px;
+            padding: 20px;
+            text-align: justify;
         }
         p.txt {
             text-indent: 20px;
@@ -29,16 +30,16 @@
     </header>
     <main>
         <section class="js">
-            <p class="txt">Hello,</p>
+            <script>
+                var name = window.prompt('What´s your name? ')
+                document.write(`Hello, Mr. ${name.toUpperCase()}, Your´re Welcome.`)
+            </script>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veniam pariatur ab harum nobis eaque adipisci praesentium architecto repudiandae et numquam aperiam, quod quasi quae, magni ut hic velit aut.
         </section>
 
     </main>
     <footer>
 
     </footer>
-    <script>
-        var name = window.prompt('What´s your name? ')
-        document.write(´Hello, Mr. ${name.upperCase()}´)
-    </script>
 </body>
 </html>
