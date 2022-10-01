@@ -15,7 +15,8 @@ function verify(){
         image.setAttribute('id', 'photo')
         
         if (genderFormu[0].checked){
-            if (age >=)
+            if (age >= 0 && age < 11)
+            image.setAttribute('src', 'photos/photo-baby-boy.png')
         }
     }
     
