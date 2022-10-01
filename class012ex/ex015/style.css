@@ -22,3 +22,9 @@ section#formu {
 input#year {
     width: 70px;
 }
+
+footer {
+    color: aliceblue;
+    text-align: center;
+    font-weight: bolder;
+}
