@@ -11,7 +11,7 @@ function verify(){
         var genderFormu = window.document.getElementsByName('genderRadio')
         var genderTxt = ''
         var yearsOld = currentYear - yearHim.value
-        var image = 
+        var image = document.createElement('img')
         
         if (genderFormu[0].checked){
 
