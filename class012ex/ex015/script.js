@@ -27,8 +27,7 @@ function verify(){
             } else if (age >= 40){
                 // old man
                 img.setAttribute('src', 'photos/photo-grandfather.png')
-            }
-        }else if (formuGender[1].checked){
+            } else if (formuGender[1].checked){
             gender = 'Female'
             if (age >= 0 && age < 11){
                 // children
