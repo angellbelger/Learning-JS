@@ -13,5 +13,4 @@ function dinamic() {
 if (hour >= 6 && hour < 12){
     image.src = 'images/photo-morning.png'
     window.document.body.style.background = '#EDC4A4'
-    
 }
