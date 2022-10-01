@@ -10,7 +10,11 @@ function verify(){
     }else {
         var genderFormu = window.document.getElementsByName('genderRadio')
         var genderTxt = ''
-        if (genderFormu[0].checked) 
+        var yearsOld = currentYear - yearHim
+        
+        if (genderFormu[0].checked){
+
+        }
     }
     
 }
