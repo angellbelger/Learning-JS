@@ -1,0 +1,16 @@
+@charset "UT-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: gray;
+}
+
+section#dinamic {
+    margin: auto;
+    background-color: white;
+    height: 400px;
+    width: 700px;
+    box-shadow: 9px 9px 11px 1px #00000059;
+    border-radius: 25px;
+}
