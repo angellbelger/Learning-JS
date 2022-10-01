@@ -1,6 +1,7 @@
 
 function verify(){
-    var date = Date new()
+    var date = new Date()
+    var year = getFullYear
 
     window.document.querySelector('input#yearHim')
 
