@@ -10,7 +10,8 @@ function verify(){
     }else {
         var genderFormu = window.document.getElementsByName('genderRadio')
         var genderTxt = ''
-        var yearsOld = currentYear - yearHim
+        var yearsOld = currentYear - yearHim.value
+        var image = 
         
         if (genderFormu[0].checked){
 
