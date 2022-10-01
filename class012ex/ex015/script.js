@@ -8,9 +8,9 @@ function verify(){
     if (yearHim.value.length == 0 || yearHim.value >= currentYear + 1){
         window.alert('Please, type a valid year.')
     }else {
-        window.document.getElementsByName('genderRadio')
-        var gender = ''
-        if ()
+        var genderFormu = window.document.getElementsByName('genderRadio')
+        var genderTxt = ''
+        if (genderFormu[0].checked) 
     }
     
 }
