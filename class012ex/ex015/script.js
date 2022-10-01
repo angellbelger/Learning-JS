@@ -24,7 +24,7 @@ function verify(){
             }else if (age < 40){
                 // man
                 img.setAttribute('src', 'photos/photo-man.png')
-            } else if (age >= 40){
+            }else if (age >= 40){
                 // old man
                 img.setAttribute('src', 'photos/photo-grandfather.png')
             }
@@ -39,7 +39,7 @@ function verify(){
             }else if (age < 40){
                 // woman
                 img.setAttribute('src', 'photos/photo-woman.png')
-            } else if (age >= 40){
+            }else if (age >= 40){
                 // old woman
                 img.setAttribute('src', 'photos/photo-grandmother.png')
             }
