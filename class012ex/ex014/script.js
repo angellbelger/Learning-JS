@@ -4,8 +4,6 @@ var image = window.document.querySelector("img#thumb")
 date = new Date()
 hour = date.getHours()
 
-
-hour = 5
 function dinamic() {
     msg.innerHTML = `The time is ${hour}h.`
 }
