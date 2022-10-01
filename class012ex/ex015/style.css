@@ -18,3 +18,7 @@ section#formu {
     max-width: 600px;
     border-radius: 20px;
 }
+
+input#year {
+    width: 70px;
+}
