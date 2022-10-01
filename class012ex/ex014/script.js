@@ -15,4 +15,5 @@ if (hour >= 6 && hour < 12){
     window.document.body.style.background = '#EDC4A4'
 } else if (hour >= 12 && hour < 18){
     image.src = 'images/photo-afternoon.png'
+    window.document.body.style.background = '#3D9BC3'
 }
