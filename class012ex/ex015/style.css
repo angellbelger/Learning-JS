@@ -9,6 +9,10 @@ body {
     background-color: aqua;
 }
 
+h1 {
+    color: aliceblue;
+}
+
 section#formu {
     margin: auto;
     padding: 20px;
@@ -19,8 +23,8 @@ section#formu {
     border-radius: 20px;
 }
 
-input#year {
-    width: 70px;
+input#yearHim {
+    width: 40px;
 }
 
 footer {
