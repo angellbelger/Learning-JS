@@ -10,12 +10,12 @@ function verify(){
     }else {
         var genderFormu = window.document.getElementsByName('genderRadio')
         var genderTxt = ''
-        var yearsOld = currentYear - yearHim.value
+        var age = currentYear - yearHim.value
         var image = document.createElement('img')
         image.setAttribute('id', 'photo')
         
         if (genderFormu[0].checked){
-
+            if (age >=)
         }
     }
     
