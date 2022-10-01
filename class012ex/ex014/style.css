@@ -14,3 +14,8 @@ section#dinamic {
     box-shadow: 9px 9px 11px 1px #00000059;
     border-radius: 25px;
 }
+
+div#msgTime {
+    margin: 0px;
+    padding: 20px;
+}
