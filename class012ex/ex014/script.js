@@ -3,9 +3,10 @@ var image = window.document.querySelector("img#thumb")
 
 date = new Date()
 hour = date.getHours()
+min = date.getMinutes()
 
 function dinamic() {
-    msg.innerHTML = `The time is ${hour}h.`
+    msg.innerHTML = `The time is ${hour}:${min}`
 
     if (hour >= 0 && hour < 6){
     image.src = 'images/photo-night.png'
