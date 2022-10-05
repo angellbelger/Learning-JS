@@ -30,7 +30,11 @@ function verify(){
             }else if (age >= 50){
                 img.setAttribute('src', 'photos/photo-grandfather.png')
             }
+            result.style.textAlign = 'center'
+            result.innerHTML = `Your gender is ${genderTxt}, and your age is ${age}`
+            result.appendChild(img)
         }
+        
         // Female
         else if (genderFormu[1].checked){
             genderTxt = 'Female'

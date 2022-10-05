@@ -27,6 +27,11 @@ input#himYear {
     width: 50px;
 }
 
+div#result {
+    margin: 5px;
+    line-height: 40px;
+}
+
 footer {
     color: aliceblue;
     text-align: center;
