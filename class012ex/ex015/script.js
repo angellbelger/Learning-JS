@@ -2,7 +2,7 @@
 function verify(){
     var date = new Date()
     var currentYear = date.getFullYear()
-    var himYear = window.document.querySelector('input#yearHim')
+    var himYear = window.document.querySelector('input#himYear')
     var result = window.document.querySelector('div#result')
 
     if (himYear.value.length == 0 || himYear.value >= currentYear + 1){
