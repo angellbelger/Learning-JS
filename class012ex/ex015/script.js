@@ -13,12 +13,18 @@ function verify(){
         var age = currentYear - himYear.value
         var img = document.createElement('img')
         img.setAttribute('id', 'photo')
+
+        // Male Children
         if (genderFormu[0].checked){
+            genderTxt = 'Male'
+
             if (age >= 0 && age < 11)
             img.setAttribute('src', 'photos/photo-baby-boy.png')
         }
     }
     result.style.textAlign = 'center'
+    result.innerHTML = `Your gender is ${genderTxt}, and your age is ${age}`
+    
     
     
 }
