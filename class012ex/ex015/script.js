@@ -11,11 +11,11 @@ function verify(){
         var genderFormu = window.document.getElementsByName('genderRadio')
         var genderTxt = ''
         var age = currentYear - himYear.value
-        var image = document.createElement('img')
-        image.setAttribute('id', 'photo')
+        var img = document.createElement('img')
+        img.setAttribute('id', 'photo')
         if (genderFormu[0].checked){
             if (age >= 0 && age < 11)
-            image.setAttribute('src', 'photos/photo-baby-boy.png')
+            img.setAttribute('src', 'photos/photo-baby-boy.png')
         }
     }
     
