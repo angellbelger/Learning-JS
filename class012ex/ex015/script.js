@@ -6,7 +6,7 @@ function verify(){
     var result = window.document.querySelector('div#result')
 
     if (himYear.value.length == 0 || himYear.value >= currentYear + 1){
-        window.alert('Please, type a valid year.')
+        window.alert('Please, type a valid year on the input box.')
     }else {
         var genderFormu = window.document.getElementsByName('genderRadio')
         var genderTxt = ''
