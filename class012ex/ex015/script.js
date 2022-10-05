@@ -50,11 +50,8 @@ function verify(){
             }
 
         }
-    result.style.textAlign = 'center'
-    result.innerHTML = `Your gender is ${genderTxt}, and your age is ${age}`
-    result.appendChild(img)
+        result.style.textAlign = 'center'
+        result.innerHTML = `Your gender is ${genderTxt}, and your age is ${age}`
+        result.appendChild(img)
     }
-    
-    
-    
 }
