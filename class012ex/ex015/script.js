@@ -41,7 +41,7 @@ function verify(){
             }else if (age <= 18){
                 img.setAttribute('src', 'photos/photo-girl.png')
 
-            }else if (age > 50){
+            }else if (age < 50){
                 img.setAttribute('src', 'photos/photo-woman.png')
 
             }else if (age >= 50){
