@@ -45,7 +45,7 @@ function verify(){
                 img.setAttribute('src', 'photos/photo-woman.png')
 
             }else if (age >= 50){
-                img.setAtribute('src', 'photos/photo-grandmother.png')
+                img.setAttribute('src', 'photos/photo-grandmother.png')
                 
             }
 
