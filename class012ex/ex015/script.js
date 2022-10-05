@@ -35,6 +35,20 @@ function verify(){
         else if (genderFormu[1].checked){
             genderTxt = 'Female'
 
+            if (age >= 0 && age < 11){
+                img.setAttribute('src', 'photos/photo-baby-girl.png')
+
+            }else if (age <= 18){
+                img.setAttribute('src', 'photos/photo-girl.png')
+
+            }else if (age > 50){
+                img.setAttribute('src', 'photos/photo-woman.png')
+
+            }else if (age >= 50){
+                img.setAtribute('src', 'photos/photo-grandmother.png')
+                
+            }
+
         }
     }
     result.style.textAlign = 'center'
