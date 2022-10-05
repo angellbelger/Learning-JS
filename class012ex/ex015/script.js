@@ -19,7 +19,7 @@ function verify(){
             genderTxt = 'Male'
 
             if (age >= 0 && age < 11)
-            img.setAttribute('src', 'photos/photo-baby-boy.png')
+                img.setAttribute('src', 'photos/photo-baby-boy.png')
         }
     }
     result.style.textAlign = 'center'
