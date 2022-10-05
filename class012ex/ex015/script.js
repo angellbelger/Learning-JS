@@ -18,6 +18,7 @@ function verify(){
             img.setAttribute('src', 'photos/photo-baby-boy.png')
         }
     }
-    result.style.textAlign
+    result.style.textAlign = 'center'
+    
     
 }
