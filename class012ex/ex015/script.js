@@ -19,15 +19,19 @@ function verify(){
             genderTxt = 'Male'
 
             if (age >= 0 && age < 11){
+                //Childran
                 img.setAttribute('src', 'photos/photo-baby-boy.png')
 
             }else if (age <= 18){
+                //Boy
                 img.setAttribute('src', 'photos/photo-boy.png')
 
             }else if (age < 50){
+                //Man
                 img.setAttribute('src', 'photos/photo-man.png')
 
             }else if (age >= 50){
+                //Grand father
                 img.setAttribute('src', 'photos/photo-grandfather.png')
             }
         }
@@ -37,15 +41,19 @@ function verify(){
             genderTxt = 'Female'
 
             if (age >= 0 && age < 11){
+                //Children
                 img.setAttribute('src', 'photos/photo-baby-girl.png')
 
             }else if (age <= 18){
+                //Girl
                 img.setAttribute('src', 'photos/photo-girl.png')
 
             }else if (age < 50){
+                //Woman
                 img.setAttribute('src', 'photos/photo-woman.png')
 
             }else if (age >= 50){
+                //Grand mother
                 img.setAttribute('src', 'photos/photo-grandmother.png')
                 
             }
