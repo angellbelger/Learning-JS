@@ -18,8 +18,12 @@ function verify(){
         if (genderFormu[0].checked){
             genderTxt = 'Male'
 
-            if (age >= 0 && age < 11)
+            if (age >= 0 && age < 11){
                 img.setAttribute('src', 'photos/photo-baby-boy.png')
+
+            }else if (age >= 11){
+
+            }
         }
     }
     result.style.textAlign = 'center'
