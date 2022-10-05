@@ -56,8 +56,7 @@ function verify(){
                 //Grand mother
                 img.setAttribute('src', 'photos/photo-grandmother.png')
                 
-            }
-
+            }   
         }
         result.style.textAlign = 'center'
         result.innerHTML = `Your gender is ${genderTxt}, and your age is ${age}`
