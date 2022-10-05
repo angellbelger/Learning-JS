@@ -14,7 +14,7 @@ function verify(){
         var img = document.createElement('img')
         img.setAttribute('id', 'photo')
 
-        // Male Children
+        // Male
         if (genderFormu[0].checked){
             genderTxt = 'Male'
 
@@ -31,6 +31,7 @@ function verify(){
                 img.setAttribute('src', 'photos/photo-grandfather.png')
             }
         }
+        // Female
         else if (genderFormu[1].checked){
             genderTxt = 'Female'
 
