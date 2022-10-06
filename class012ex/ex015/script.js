@@ -64,3 +64,5 @@ function verify(){
         result.appendChild(img)
     }
 }
+
+//test day 6
