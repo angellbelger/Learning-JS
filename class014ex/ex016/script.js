@@ -18,7 +18,4 @@ function thepass(){
             result += `${c} `
         }
     }
-
-
-
 }
