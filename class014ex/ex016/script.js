@@ -1,5 +1,5 @@
 
-function thePass(){
+function thepass(){
     var result = window.document.querySelector('div#result')
     var tStart = window.document.querySelector('input#tStart')
     var tEnd = window.document.querySelector('input#tEnd')
