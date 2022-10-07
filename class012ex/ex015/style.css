@@ -6,7 +6,7 @@
 
 body {
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(8, 199, 199);
 }
 
 h1 {
@@ -19,7 +19,7 @@ section#formu {
     text-align: left;
     background-color: aliceblue;
     min-height: 200px;
-    max-width: 600px;
+    max-width: 500px;
     border-radius: 20px;
 }
 
