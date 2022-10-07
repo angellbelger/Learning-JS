@@ -1,12 +1,13 @@
 
 function thePass(){
     var result = window.document.querySelector('div#result')
-    var nStart = window.document.querySelector('input#tStart')
-    var nEnd = window.document.querySelector('input#tEnd')
-    var nPass = window.document.querySelector('input#tPass')
+    var tStart = window.document.querySelector('input#tStart')
+    var tEnd = window.document.querySelector('input#tEnd')
+    var tPass = window.document.querySelector('input#tPass')
 
-    if (nStart.value.length == 0){
+    if (tStart.value.length == 0 || tEnd.value.length == 0 || tPass.value.length == 0){
         window.alert('Please, type a value on Start box.')
+        result.innerHTML = 'Please, try again.'
     }
 
 
