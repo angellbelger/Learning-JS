@@ -22,8 +22,10 @@ function thepass(){
             for (var c = nStart; c < nEnd; c += nPass){
                 result += `${c} `
             }
-        }else if{
-            
+        }else if (nStart > nEnd){
+            for (var c = nStart; c > nEnd; c -= nPass){
+                result += `${c} `
+            }
         }
     }
 }
