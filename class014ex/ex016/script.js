@@ -24,7 +24,7 @@ function thepass(){
             }
         }else if (nStart > nEnd){
             for (var c = nStart; c >= nEnd; c -= nPass){
-                result.innerHTML += `${c} `
+                result.innerHTML += `${c} \u{267E}`
             }
         }
     }
