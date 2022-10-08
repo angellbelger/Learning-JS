@@ -20,12 +20,13 @@ function thepass(){
         }
         if (nStart < nEnd){
             for (var c = nStart; c <= nEnd; c += nPass){
-                result.innerHTML += `${c} `
+                result.innerHTML += `${c} \u{1F535}`
             }
         }else if (nStart > nEnd){
             for (var c = nStart; c >= nEnd; c -= nPass){
-                result.innerHTML += `${c} \u{267E}`
+                result.innerHTML += `${c} \u{1F534}`
             }
         }
+        result.innerHTML += '\u{1F51A}'
     }
 }
