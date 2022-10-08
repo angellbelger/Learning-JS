@@ -13,9 +13,17 @@ function thepass(){
         var nStart = Number(tStart.value)
         var nEnd = Number(tEnd.value)
         var nPass = Number(tPass.value)
-        
-        for (var c = nStart; c < nEnd; c += nPass){
-            result += `${c} `
+
+        if (nPass <= 0){
+            window.alert('This pass is invalid.')
+            nPass = 1
+        }
+        if (nStart < nEnd){
+            for (var c = nStart; c < nEnd; c += nPass){
+                result += `${c} `
+            }
+        }else if{
+            
         }
     }
 }
