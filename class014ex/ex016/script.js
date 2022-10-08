@@ -19,12 +19,12 @@ function thepass(){
             nPass = 1
         }
         if (nStart < nEnd){
-            for (var c = nStart; c < nEnd; c += nPass){
-                result += `${c} `
+            for (var c = nStart; c <= nEnd; c += nPass){
+                result.innerHTML += `${c} `
             }
         }else if (nStart > nEnd){
-            for (var c = nStart; c > nEnd; c -= nPass){
-                result += `${c} `
+            for (var c = nStart; c >= nEnd; c -= nPass){
+                result.innerHTML += `${c} `
             }
         }
     }
