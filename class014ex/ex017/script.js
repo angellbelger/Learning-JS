@@ -9,5 +9,6 @@ function table() {
 
     }else {
         numb = Number(nTxt.value)
+        
     }
 }
