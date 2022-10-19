@@ -10,5 +10,9 @@ function table() {
     }else {
         numb = Number(nTxt.value)
         table.innerHTML = ''
+
+        for (var c = 0; c <= 10; c++){
+            
+        }
     }
 }
