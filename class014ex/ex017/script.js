@@ -13,8 +13,7 @@ function table() {
 
         for (var c = 0; c <= 10; c++){
             var item = document.createElement('option')
-            var cal = numb * c
-            item.text = `${numb} x ${c} = ${cal}`
+            item.text = `${numb} x ${c} = ${numb * c}`
             item.value = `tab${c}`
             table.appendChield(item)
             
