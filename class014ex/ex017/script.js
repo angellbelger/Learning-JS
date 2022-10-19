@@ -12,7 +12,8 @@ function table() {
         table.innerHTML = ''
 
         for (var c = 0; c <= 10; c++){
-            var item = 
+            var item = document.createElement('option')
+            
         }
     }
 }
