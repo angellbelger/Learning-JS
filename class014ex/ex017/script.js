@@ -14,8 +14,8 @@ function table() {
         for (var c = 0; c <= 10; c++){
             var item = document.createElement('option')
             item.text = `${numb} x ${c} = ${numb * c}`
-            item.value = `tab${c}`
-            table.appendChield(item)
+            item.value = `${c}`
+            table.appendChild(item)
             
         }
     }
