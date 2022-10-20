@@ -1,0 +1,9 @@
+function fact(param=0){
+    for (let c = param; param > 1; c--){
+        let f = 1
+        f *= c
+    }
+    return f
+}
+
+console.log(fact(4))
