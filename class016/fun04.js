@@ -1,6 +1,6 @@
 function fact(param){
     let f = 1
-    for (let c = param; param > 1; c--){
+    for (let c = param; c > 1; c--){
         f *= c
     }
     return f
