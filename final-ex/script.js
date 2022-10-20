@@ -1,18 +1,44 @@
 
+num = window.document.querySelector('input#number')
+table = window.document.querySelector('select#listnumbers')
+let list = []
+
+
+function isNumber(param){
+    if (Number(param) >= 1 && Number(param) <= 100){
+        return true
+
+    }else{
+        return false
+
+    }
+}
+
+
+function inList(paramNumber, paramList){
+    for (var c = 0; c < paramList.length; c++){
+        if (Number(paramNumber) == Number(paramList[c])){
+            window.alert('Type a valid number.')
+            return false
+        }else{
+            return true
+        }
+    }
+}
+
 
 function addNum(){
-    num = window.document.querySelector('input#number')
-    table = window.document.querySelector('select#listnumbers')
-    let list = []
 
-    if (num.value.length == 0 || num.value < 0 || num.value > 100){
+    if (isNumber(num.value) == false || inList(num.value, list) == false){
         window.alert('Please, type a valid number.')
 
     }else {
-        var numPro = Number(num.value)
-        list.push(numPro)
+        list.push(Number(num.value))
 
-        var item = document.createElement('option')
-        item.value = numPro
+        let item = document.createElement('option')
+        item.text = `The value ${num.value} was added.`
+        item.value = Number(num.value)
+        table.appendChild(item)
+
     }
 }

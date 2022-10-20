@@ -37,3 +37,9 @@ footer {
 p {
     margin: 15px;
 }
+
+select {
+    padding: 5px;
+    height: 100px;
+    width: 200px;
+}
