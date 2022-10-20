@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    text-align: center;
+    color: azure;
+    background-color: black;
+    padding: 30px;
+    margin: 0px 0px 30px 0px;
+}
+
+section.log {
+    background-color: azure;
+    height: 500px;
+    width: 600px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 10px 1px #00000075;
+
+}
+
+footer {
+    color: azure;
+    text-align: center;
+    margin: 30px;
+}
+
+p {
+    margin: 15px;
+}
