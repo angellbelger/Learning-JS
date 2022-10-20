@@ -43,3 +43,10 @@ select {
     height: 100px;
     width: 200px;
 }
+
+div.result {
+    background-color: #b7e0e0;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
