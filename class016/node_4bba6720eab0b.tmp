@@ -1,4 +1,4 @@
-function fact(param){
+function fact(param=0){
     let f = 1
     for (let c = param; param > 1; c--){
         f *= c
