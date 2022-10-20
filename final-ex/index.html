@@ -13,11 +13,14 @@
     </header>
     <main>
         <section class="log">
-            <p>Numbers betweem 0 and 100: <input type="number"> <input type="button" value="Add"></p>
-            <select name="listnumbers" id="listnumbers"></select>
+            <p>Numbers betweem 0 and 100: <input type="number" id="number"> <input type="button" value="Add" onclick="addNum()"></p>
+            <select name="listnumbers" id="listnumbers" size="10">
+                <option value="">......................................</option>
+            </select>
 
         </section>
     </main>
+    <script src="script.js"></script>
     <footer>
         &copy; Angell Belger
     </footer>
